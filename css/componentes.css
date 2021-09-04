@@ -5,7 +5,7 @@
   position: relative;
 
   padding: 10px;
-  border: 1px solid #95a4a5;
+  border: 1px solid #a2be27;
 
   font-size: 1.4rem; /* 14px */
 }
@@ -30,7 +30,7 @@
   margin: -10px;
   margin-bottom: 0;
 
-  background-color: #95a4a5;
+  background-color: #000;
   color: rgb(236, 233, 54);
 
   text-align: center;
@@ -78,6 +78,7 @@
   line-height: normal;
   font-size: 1em;
   text-decoration: none;
+  transition:transform 100ms linear;
 }
 
 .botao:hover, .botao:focus {
@@ -180,7 +181,7 @@
 
   color: #ccc;
 
-  font-size: 8em; /* 176px */
+  font-size: 5em; /* 176px */
 
   content: "\201C";
 }
@@ -199,13 +200,20 @@
 .depoimento__autor > p {
   margin-top: 10px;
 }
-
+/*--------------------*\
+  whatsapp
+\*--------------------*/
+#whatsapp > img{
+  background-color: rgb(172, 2, 2);
+ padding: 0;
+ align-items:"right";
+ 
+}
 
 /*--------------------*\
   NAVEGACAO
 \*--------------------*/
-.navegacao {}
-
+  
 
 .navegacao--assinatura {
   text-align: center;
@@ -225,7 +233,7 @@
   border: 0;
 
   background: none;
-  background-image: url("../imagens/bars.png");
+  background-image: url("../img/bars.png");
 
   outline: none;
 }
@@ -257,7 +265,7 @@
     bottom: 0;
 
     display: none;
-    width: 200px;
+    width: 100px;
     padding: 20px;
     border-right: 1px solid #eee;
 
@@ -338,3 +346,11 @@
 
   font-size: 1.4rem;
 }
+/*--------------------*\
+  container2
+\*--------------------*/
+   .container2{
+    justify-content: flex-end;
+    display: flex;
+     
+   }
