@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/componentes.css">
-  </head>
 
   <body>
 
@@ -27,37 +26,32 @@
     <main class="layout-assinatura">
       <div class="container">
 
-        <form action="#" method="post">
+        <form class="form" method="post" action="./email.php" >
           <h1 class="titulo-formulario">Sua assinatura do TheoNet</h1>
 
           <div class="grupo-entrada">
-            <label for="nome-do-assinante">Nome do Asinante</label>
-            <input id="nome-do-assinante" name="nome-do-assinante" type="text" class="campo" required>
+            <label for="nome">Nome do Asinante</label>
+            <input id="nome" name="nome" type="text" class="campo" >
           </div>
 
           <div class="row">
             <div class="col-sm-3">
               <div class="grupo-entrada">
                 <label for="cpf">CPF</label>
-                <input id="cpf" name="cpf" type="text" class="campo" required>
+                <input id="cpf" name="cpf" type="text" class="campo" >
               </div>
             </div>
             <div class="col-sm-3">
               <div class="grupo-entrada">
-                <label for="data-nascimento">Data de Nascimento</label>
-                <input id="data-nascimento" name="dataFundacao" type="date" class="campo" required>
+                <label for="nascimento">Data de Nascimento</label>
+                <input id="nascimento" name=nascimento" type="date" class="campo">
               </div>
             </div>
           </div>
 
           <div class="grupo-entrada">
-            <label for="responsavel">Responsável</label>
-            <input id="responsavel" name="responsavel" type="text" class="campo" required>
-          </div>
-
-          <div class="grupo-entrada">
             <label for="email">E-mail</label>
-            <input id="email" type="email" class="campo" required>
+            <input id="email" type="email" class="campo" >
           </div>
 
           <div class="row">
@@ -89,13 +83,13 @@
             <div class="col-sm-3">
               <div class="grupo-entrada">
                 <label for="senha">Senha</label>
-                <input id="senha" type="password" class="campo" required>
+                <input id="senha" type="password" class="campo" >
               </div>
             </div>
             <div class="col-sm-3">
               <div class="grupo-entrada">
                 <label for="confirmacao-senha">Confirme a senha</label>
-                <input id="confirmacao-senha" type="password" class="campo" required>
+                <input id="confirmacao-senha" type="password" class="campo">
               </div>
             </div>
           </div>

@@ -61,6 +61,7 @@
 
 .plano__rodape {
   text-align: center;
+
 }
 
 
@@ -164,7 +165,7 @@
   }
 }
 
-.depoimento > blockquote {
+.depoimento> blockquote {
   position: relative;
 
   margin: 0;
@@ -193,9 +194,7 @@
   font-size: 0.7272em;
 }
 
-.depoimento__autor > img {
-  border-radius: 50%;
-}
+
 
 .depoimento__autor > p {
   margin-top: 10px;
@@ -203,12 +202,7 @@
 /*--------------------*\
   whatsapp
 \*--------------------*/
-#whatsapp > img{
-  background-color: rgb(172, 2, 2);
- padding: 0;
- align-items:"right";
- 
-}
+
 
 /*--------------------*\
   NAVEGACAO
@@ -354,3 +348,33 @@
     display: flex;
      
    }
+/*--------------------*\
+  quem somos
+\*--------------------*/
+.quem-somos{
+  margin-bottom: 50px;
+  }
+  @media(min-width: 300px) {
+    .quem-somos {
+      padding-left: 15%;
+      padding-right: 20%;
+  
+      font-size: 2.8rem; 
+    }
+  }
+  
+  .quem-somos>  {
+    font-size: 2.2rem; /* 22px */
+  }
+  
+  @media(min-width: 992px) {
+    .quem-somos {
+      padding-left: 10%;
+      padding-right: 15%;
+      margin-top: 60px;
+      font-size: 2.8rem;
+    }
+  }
+  
+  
+  
