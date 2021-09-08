@@ -1,9 +1,9 @@
 .layout-cabecalho {
   height: 60px;
   line-height: 60px;
-  border-bottom: 1px solid #f9c784;
+  border-bottom: 1px solid #ccc;
 
-  background-color: rgb(8, 4, 4);
+  background-color: #ffde59;
 }
 
 .layout-cabecalho--home {
@@ -19,21 +19,21 @@
 }
 
 .layout-chamada {
-  padding: 10px 0;
-  margin-top: 50px;
+  padding: 70px 0px;
+  margin-top: 40px;
 
-  background-color: #ffde59;
+  background-color: #0e0f0d;
 }
 
 .layout-depoimento {
-  padding: 10px 0;
-  background-color: #fafafa;
+  padding: 20px 0;
+  background-color: #fff;
 }
 
 .layout-rodape {
-  padding: 20px 0px;
+  padding: 40px 0;
 
-  background-color: #000;
+  background-color: #161515;
 
   color: #fff;
   text-align: center;
@@ -41,7 +41,7 @@
 
 @media(max-width: 749px) {
   .layout-planos .row > div:not(.ultima-coluna) {
-    margin-bottom: 900px;
+    margin-bottom: 40px;
   }
 }
 
